@@ -1,4 +1,4 @@
-//SPDX-License-Identifier: GPL-2.0-or-later OR MIT
+// SPDX-License-Identifier: GPL-2.0-or-later OR MIT
 
 #include "mt7628an.dtsi"
 
@@ -74,7 +74,8 @@
 	mediatek,portmap = <0x3e>;
 	mediatek,portdisable = <0x2a>;
 };
-&wmac {
+
+wmac {
 	status = "okay";
 	nvmem-cells = <&eeprom_factory_0>;
 	nvmem-cell-names = "eeprom";
