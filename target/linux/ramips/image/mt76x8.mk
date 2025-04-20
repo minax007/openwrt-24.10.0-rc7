@@ -1102,7 +1102,6 @@ define Device/xiaomi_miwifi-3a
   DEVICE_VENDOR := Xiaomi
   DEVICE_MODEL := MiWiFi 3A
   DEVICE_PACKAGES := kmod-mt76x2
-  SUPPORTED_DEVICES += miwifi-3a
 endef
 TARGET_DEVICES += xiaomi_miwifi-3a
 
